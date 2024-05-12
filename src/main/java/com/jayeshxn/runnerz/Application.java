@@ -30,7 +30,7 @@ public class Application {
 					1,
 					"First Run",
 					LocalDateTime.now(),
-					LocalDateTime.now().plus(1, ChronoUnit.HOURS),
+                    LocalDateTime.now().plusHours(1),
 					5,
 					Location.OUTDOOR
 			);
